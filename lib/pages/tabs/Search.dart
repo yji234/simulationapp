@@ -17,11 +17,14 @@ class _SearchPageState extends State<SearchPage> {
       length: 2,
       child: Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.white,
           title: Row(
             children: [
               Expanded(
                 child: TabBar(
                   indicatorSize: TabBarIndicatorSize.label,
+                  unselectedLabelColor: Colors.black38,
+                  labelColor: Colors.red,
                   tabs: [
                     Tab(
                       text: '关注',

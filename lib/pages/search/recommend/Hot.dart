@@ -11,7 +11,7 @@ class _HotPageState extends State<HotPage> {
   @override
   Widget build(BuildContext context) {
     return Container(
-       child: Text('热门'),
+      child: Text('热门'),
     );
   }
 }

@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../pages/search/AppBarPage.dart';
 import '../pages/Tabs.dart';
 
 final routes = {
   '/': (context) => Tabs(),
-  '/appbar': (context) => AppBarPage(),
+  // '/appbar': (context) => AppBarPage(),
 };
 
 var onGenerateRoute = (RouteSettings settings){
